@@ -5,7 +5,7 @@ import Header from './Components/Header';
 
 function App () {
 
-  const [resumeData,setResumeData] = useState({resumeData: {}});
+  const [resumeData,setResumeData] = useState("");
     
   function getResumeData (){
     $.ajax({
@@ -15,7 +15,7 @@ function App () {
       success: function(data){
         setResumeData(data);
       },
-      error: function(xhr, status, err){
+      error: function(err){
         console.log(err);
         alert(err);
       }

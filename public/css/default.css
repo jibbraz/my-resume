@@ -1,0 +1,21 @@
+*,
+*:before {
+   box-sizing: border-box;
+   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+ }
+
+ .row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+ }
