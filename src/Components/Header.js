@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header({data}) {
 
-   const {name:Name,occupation,city,description} = data ? data : "";
+   const {name,occupation,city,description} = data ? data : "";
 
     return (
         <header id="home">
@@ -18,8 +18,8 @@ export default function Header({data}) {
   
         <div className="row banner">
            <div className="banner-text">
-              <h1>I'm {Name}.</h1>
-              <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+              <h1>I'm {name}.</h1>
+              <h3>I'm a {city} based <span>{occupation}</span>, {description}.</h3>
               <hr />
            </div>
         </div>

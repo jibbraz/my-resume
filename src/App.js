@@ -1,34 +1,35 @@
-import React, {useState, useEffect} from "react";
-import $ from 'jquery';
+import React, { useState, useEffect } from "react";
+import $ from "jquery";
 
-import Header from './Components/Header';
+import Header from "./Components/Header";
+import About from "./Components/About";
 
-function App () {
+function App() {
+  const [resumeData, setResumeData] = useState("");
 
-  const [resumeData,setResumeData] = useState("");
-    
-  function getResumeData (){
+  function getResumeData() {
     $.ajax({
-      url:'./resumeData.json',
-      dataType:'json',
+      url: "./resumeData.json",
+      dataType: "json",
       cache: false,
-      success: function(data){
+      success: function (data) {
         setResumeData(data);
       },
-      error: function(err){
+      error: function (err) {
         console.log(err);
         alert(err);
-      }
+      },
     });
   }
 
   useEffect(() => {
-    getResumeData()
-  },[]);
-  
+    getResumeData();
+  }, []);
+
   return (
     <div className="App">
-      <Header data={resumeData.main}/>
+      <Header data={resumeData.main} />
+      <About data={resumeData.main} />
     </div>
   );
 }
