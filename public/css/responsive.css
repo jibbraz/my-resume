@@ -170,6 +170,9 @@
 
   /* header styles
   -------------------------------------------------------------------- */
+  header:before {
+    height: 70%;
+  }
   header .banner {
     padding-top: 24px;
   }
