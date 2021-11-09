@@ -84,6 +84,8 @@ header .banner-text hr {
 .opaque {
   background-color: #333;
 }
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
   min-height: 48px;
