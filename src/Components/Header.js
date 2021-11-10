@@ -26,13 +26,13 @@ export default function Header({ data }) {
 
         <ul id="nav" className="nav">
           <li className="current">
-            <a href="#home">Home</a>
+            <a className='smoothscroll' href="#home">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a className='smoothscroll' href="#about">About</a>
           </li>
           <li>
-            <a href="#resume">Resume</a>
+            <a className='smoothscroll' href="#resume">Resume</a>
           </li>
         </ul>
       </nav>
