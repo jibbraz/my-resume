@@ -200,4 +200,11 @@
     font: 14px/1.9em "librebaskerville-regular", sans-serif;
     width: 90%;
   }
+  /* header social links */
+  header .social {
+    font-size: 20px;
+  }
+  header .social li {
+    margin: 0 6px;
+  }
 }

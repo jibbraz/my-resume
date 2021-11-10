@@ -27,15 +27,15 @@ function App() {
     getResumeData();
   }, []);
 
-  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-    anchor.addEventListener("click", function (e) {
-      e.preventDefault();
-
-      document.querySelector(this.getAttribute("href")).scrollIntoView({
-        behavior: "smooth",
-      });
-    });
-  });
+  // document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  //   anchor.addEventListener("click", function (e) {
+  //     e.preventDefault();
+  //     console.log(anchor);
+  //     document.querySelector(this.getAttribute("href")).scrollIntoView({
+  //       behavior: "smooth",
+  //     });
+  //   });
+  // });
 
   return (
     <div className="App">
