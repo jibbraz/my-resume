@@ -3,9 +3,10 @@ import $ from "jquery";
 
 import Header from "./Components/Header";
 import About from "./Components/About";
+import Resume from "./Components/Resume";
 
 function App() {
-  const [resumeData, setResumeData] = useState("");
+  const [resumeData, setResumeData] = useState({});
 
   function getResumeData() {
     $.ajax({
@@ -26,10 +27,21 @@ function App() {
     getResumeData();
   }, []);
 
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
+
   return (
     <div className="App">
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
+      <Resume data={resumeData.resume} />
     </div>
   );
 }

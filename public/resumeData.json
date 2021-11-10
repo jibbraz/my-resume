@@ -2,9 +2,9 @@
   "main": {
     "name": "Ekkarat Huakhao",
     "occupation": "Network Engineer",
-    "description": "looking for opportunities to use my programming skill and change my role from Network Engineer to Developer, Software Engineer or any position that related IT fields to enhance my skills and gain more experience from working",
+    "description": "looking for opportunities to use my programming skills and change my role from Network Engineer to Developer, Software Engineer or any position related to IT fields to enhance my skills and gain more experience from working",
     "image": "profilepic.jpg",
-    "bio": "A recent graduate in Telecommunication Engineering, looking for an Entry Level Software Engineer, Frontend Developer, Backend Developer position with your company to utilize high-level tecnical skills, interpersonal skills, and knowledge of the network programing, programing language such as Javascript and Python.",
+    "bio": "A few year recent graduate in Telecommunication Engineering, looking for an Entry Level Software Engineer, Frontend Developer, Backend Developer position with your company to utilize high-level technical skills, interpersonal skills, and knowledge of the network programming, programming language such as Javascript and Python.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "jib.akekarat@gmail.com",
     "phone": "062-592-3222",
@@ -15,7 +15,7 @@
       "zip": "10900"
     },
     "website": "https://resume-ekkarat.herokuapp.com/",
-    "resumedownload": "https://drive.google.com/uc?export=pdf&id=1EPWVJ3hh85F3Wx3dTXaMct9AKr6x42ir",
+    "resumedownload": "https://drive.google.com/uc?export=pdf&id=1nZKo2Mbg8UAxXq21qEobpLWhjn4gGTqK",
     "social": [
       {
         "name": "facebook",
@@ -45,46 +45,34 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "My Programming Skills",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
+        "school": "King Mongkut's Institute of Technology Ladkrabang",
+        "degree": "Bachelor",
+        "graduated": "May 2018",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "MFEC Public Company Limited",
+        "title": "Network Engineer",
+        "years": "July 2018 - Present",
+        "description": "Network Implement for Telco operator and Services provider, Use Ansible script to test and validate existing network state, and discover and correct network configuration drift, Solve issues related to network infrastructure."
       }
     ],
-    "skills": [
+    "skill": [
       {
-        "name": "Git",
+        "name": "Javascript",
         "level": "60%"
       },
       {
-        "name": "Illustrator",
+        "name": "ReactJS",
         "level": "55%"
       },
       {
-        "name": "ReactJs",
+        "name": "Python",
         "level": "50%"
       },
       {
@@ -96,11 +84,19 @@
         "level": "80%"
       },
       {
-        "name": "VueJs",
+        "name": "Flask",
         "level": "50%"
       },
       {
         "name": "MongoDB",
+        "level": "80%"
+      },
+      {
+        "name": "NodeJS",
+        "level": "80%"
+      },
+      {
+        "name": "SQLite",
         "level": "80%"
       }
     ]

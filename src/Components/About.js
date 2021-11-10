@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function About({ data }) {
-  const { name, bio, phone, email, resumeDownload, image } = data ? data : "";
+  const { name, bio, phone, email, resumedownload, image } = data ? data : "";
   const { street, city, state, zip } = data ? data.address : "";
   const profilepic = "images/" + image;
 
@@ -38,7 +38,7 @@ export default function About({ data }) {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
+                <a href={resumedownload} className="button">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>

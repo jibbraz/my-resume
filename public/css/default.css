@@ -61,25 +61,8 @@ header {
   border: none;
   cursor: pointer;
   height: auto;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.2s ease-in-out;
   border-radius: 5px;
-}
-
-
-/* smaller screens
---------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
-
-  /* block grids on small screens */
-  .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
-  .s-bgrid-quarters [class*="column"] { width: 25%; }
-  .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
-  .s-bgrid-halves [class*="column"]   { width: 50%; }
-
-  /* block grids left clearing */
-  .first { clear: none; }
-  .s-first { clear: left; }
-
 }
 
 /* mobile wide/smaller tablets
@@ -99,22 +82,6 @@ header {
      padding: 0 30px;
   }
   .row .row { width: auto; max-width: none; margin: 0 -30px; }
-
-  [class*="column"] + [class*="column"]:last-child { float: none; }
-  [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
-
-  /* Offsets */
-  .row .offset-1    { margin-left: 0%; }
-  .row .offset-2    { margin-left: 0%; }
-  .row .offset-3    { margin-left: 0%; }
-  .row .offset-4    { margin-left: 0%; }
-  .row .offset-5    { margin-left: 0%; }
-  .row .offset-6    { margin-left: 0%; }
-  .row .offset-7    { margin-left: 0%; }
-  .row .offset-8    { margin-left: 0%; }
-  .row .offset-9    { margin-left: 0%; }
-  .row .offset-10   { margin-left: 0%; }
-  .row .offset-11   { margin-left: 0%; }
 }
 
 /* mobile narrow
