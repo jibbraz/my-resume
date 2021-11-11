@@ -16,13 +16,12 @@ export default function About({ data }) {
           />
         </div>
         <div className="nine columns main-col">
-          <h2>About Me</h2>
-
-          <p>{bio}</p>
+          <h2 className="texthead">About Me</h2>
+          <p className="text">{bio}</p>
           <div className="row">
             <div className="columns contact-details">
-              <h2>Contact Details</h2>
-              <p className="address">
+              <h2 className="texthead">Contact Details</h2>
+              <p className="address text">
                 <span>{name}</span>
                 <br />
                 <span>

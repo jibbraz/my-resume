@@ -65,6 +65,16 @@ header {
   border-radius: 5px;
 }
 
+.text {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: 0.9s all linear;
+}
+.reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* mobile wide/smaller tablets
 --------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
