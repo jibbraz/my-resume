@@ -78,34 +78,38 @@ header {
 /* mobile wide/smaller tablets
 --------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
-
   .row {
     width: 460px;
     margin: 0 auto;
-     padding: 0;
- }
-  .column, .columns {
+    padding: 0;
+  }
+  .column,
+  .columns {
     width: auto !important;
     float: none;
     margin-left: 0;
     margin-right: 0;
-     padding: 0 30px;
+    padding: 0 30px;
   }
-  .row .row { width: auto; max-width: none; margin: 0 -30px; }
+  .row .row {
+    width: auto;
+    max-width: none;
+    margin: 0 -30px;
+  }
 }
 
 /* mobile narrow
 --------------------------------------------------------------- */
 @media only screen and (max-width: 460px) {
-
-  .row { width: auto; }
-
+  .row {
+    width: auto;
+  }
 }
 
 /* larger screens
 --------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
-
-  .wide .row { max-width: 1180px; }
-
+  .wide .row {
+    max-width: 1180px;
+  }
 }

@@ -65,23 +65,23 @@
     "skill": [
       {
         "name": "Javascript",
-        "level": "60%"
+        "level": "70%"
       },
       {
         "name": "ReactJS",
-        "level": "55%"
+        "level": "65%"
       },
       {
         "name": "Python",
-        "level": "50%"
+        "level": "70%"
       },
       {
         "name": "CSS",
-        "level": "90%"
+        "level": "55%"
       },
       {
         "name": "HTML5",
-        "level": "80%"
+        "level": "65%"
       },
       {
         "name": "Flask",
@@ -89,15 +89,15 @@
       },
       {
         "name": "MongoDB",
-        "level": "80%"
+        "level": "45%"
       },
       {
         "name": "NodeJS",
-        "level": "80%"
+        "level": "47%"
       },
       {
         "name": "SQLite",
-        "level": "80%"
+        "level": "40%"
       }
     ]
   },
