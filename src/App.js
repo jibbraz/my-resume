@@ -36,29 +36,29 @@ function App() {
     });
   });
 
-  function onScroll() {
-    const sectionElems = Array.from(document.querySelectorAll("div"));
-    sectionElems.forEach((sectionElem) => {
-      const textHeadElem = sectionElem.querySelector(".texthead");
-      const textElem = sectionElem.querySelector(".text");
+  // function onScroll() {
+  //   const sectionElems = Array.from(document.querySelectorAll("div"));
+  //   sectionElems.forEach((sectionElem) => {
+  //     const textHeadElem = sectionElem.querySelector(".texthead");
+  //     const textElem = sectionElem.querySelector(".text");
 
-      if (textHeadElem !== null && textElem !== null) {
-        const scrollPosition = window.pageYOffset;
-        const revealPosition =
-          textHeadElem.offsetTop + textHeadElem.offsetHeight / 10;
+  //     if (textHeadElem !== null && textElem !== null) {
+  //       const scrollPosition = window.pageYOffset;
+  //       const revealPosition =
+  //         textHeadElem.offsetTop + textHeadElem.offsetHeight / 10;
 
-        if (scrollPosition >= revealPosition) {
-          textElem.classList.add("reveal");
-        }
-      }
-    });
-  }
+  //       if (scrollPosition >= revealPosition) {
+  //         textElem.classList.add("reveal");
+  //       }
+  //     }
+  //   });
+  // }
 
-  function run() {
-    document.addEventListener("scroll", onScroll);
-  }
+  // function run() {
+  //   document.addEventListener("scroll", onScroll);
+  // }
 
-  run();
+  // run();
 
   return (
     <div className="App">
