@@ -27,14 +27,14 @@ function App() {
     getResumeData();
   }, []);
 
-  document.querySelectorAll(".smoothscroll").forEach((anchor) => {
-    anchor.addEventListener("click", function (e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute("href")).scrollIntoView({
-        behavior: "smooth",
-      });
-    });
-  });
+  // document.querySelectorAll(".smoothscroll").forEach((anchor) => {
+  //   anchor.addEventListener("click", function (e) {
+  //     e.preventDefault();
+  //     document.querySelector(this.getAttribute("href")).scrollIntoView({
+  //       behavior: "smooth", 
+  //     });
+  //   });
+  // });
 
   function onScroll() {
     const sectionElems = Array.from(document.querySelectorAll("div"));
